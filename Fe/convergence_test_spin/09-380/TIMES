@@ -1,0 +1,77 @@
+
+timer: Number of nodes =      8
+timer: Busiest calculating node was node =      2
+timer: Times refer to node =      2
+timer: Total elapsed wall-clock time (sec) =       29.098
+timer: CPU times (sec):
+Calc: Sum, Avge, myNode, Avg/Max =     200.108      25.014      25.174   0.994
+Comm: Sum, Avge, myNode, Avg/Max =       0.000       0.000       0.000     NaN
+Tot:  Sum, Avge, myNode, Avg/Max =     200.108      25.014      25.174   0.994
+Program times printed if >  0.000E+00 of total
+
+Program            Calls     Prg.com  Prg.com     Prg.tot  Prg.tot Nod.avg
+                                     /Tot.com             /Tot.tot/Nod.max
+siesta                 1       0.000   0.0000      25.174   1.0000   0.994
+Setup                  1       0.000   0.0000       0.178   0.0071   0.942
+bands                  1       0.000   0.0000       0.000   0.0000   0.840
+KSV_init               1       0.000   0.0000       0.000   0.0000   0.783
+IterGeom               1       0.000   0.0000      24.948   0.9910   0.994
+geom_init              1       0.000   0.0000       1.316   0.0523   0.957
+state_init             1       0.000   0.0000       0.053   0.0021   0.626
+hsparse                1       0.000   0.0000       0.001   0.0000   0.752
+overlap                1       0.000   0.0000       0.036   0.0014   0.761
+Setup_H0               1       0.000   0.0000       0.865   0.0344   0.959
+naefs                  2       0.000   0.0000       0.000   0.0000   0.862
+MolMec                 2       0.000   0.0000       0.000   0.0000   0.745
+kinefsm                2       0.000   0.0000       0.028   0.0011   0.711
+nlefsm                 2       0.000   0.0000       0.401   0.0159   0.956
+DHSCF_Init             1       0.000   0.0000       0.444   0.0176   0.925
+DHSCF1                 1       0.000   0.0000       0.049   0.0019   0.964
+INITMESH               3       0.000   0.0000       0.030   0.0012   0.690
+DHSCF2                 1       0.000   0.0000       0.395   0.0157   0.915
+REMESH                 1       0.000   0.0000       0.086   0.0034   0.800
+SPLOAD                 2       0.000   0.0000       0.030   0.0012   0.689
+REORD                 14       0.000   0.0000       0.000   0.0000   0.836
+PHION                  1       0.000   0.0000       0.120   0.0048   0.975
+COMM_BSC             132       0.000   0.0000       0.481   0.0191   0.949
+POISON                17       0.000   0.0000       0.251   0.0100   0.930
+fft                   34       0.000   0.0000       0.250   0.0099   0.931
+setup_H               15       0.000   0.0000       2.289   0.0909   0.970
+DHSCF                 16       0.000   0.0000       2.602   0.1034   0.970
+DHSCF3                16       0.000   0.0000       2.454   0.0975   0.972
+rhoofd                16       0.000   0.0000       0.388   0.0154   0.969
+XC                    16       0.000   0.0000       0.753   0.0299   0.951
+GXC-CellXC            16       0.000   0.0000       0.537   0.0213   0.962
+gridxc@cellXC         16       0.000   0.0000       0.537   0.0213   0.962
+vmat                  16       0.000   0.0000       0.824   0.0327   0.969
+IterSCF               14       0.000   0.0000      23.249   0.9235   0.989
+compute_dm            14       0.000   0.0000      21.069   0.8369   0.986
+diagon                14       0.000   0.0000      21.047   0.8360   0.986
+cdiag               2576       0.000   0.0000      18.042   0.7167   0.992
+cdiag1              2576       0.000   0.0000       0.007   0.0003   0.975
+cdiag2              2576       0.000   0.0000       8.979   0.3567   0.992
+cdiag3              2576       0.000   0.0000       9.020   0.3583   0.992
+cdiag4              1288       0.000   0.0000       0.003   0.0001   0.968
+MIXER                 13       0.000   0.0000       0.056   0.0022   0.868
+PostSCF                1       0.000   0.0000       0.382   0.0152   0.960
+DHSCF4                 1       0.000   0.0000       0.148   0.0059   0.936
+dfscf                  1       0.000   0.0000       0.104   0.0041   0.975
+overfsm                1       0.000   0.0000       0.000   0.0000   0.669
+writeHSX               1       0.000   0.0000       0.018   0.0007   0.551
+state_analysis         1       0.000   0.0000       0.000   0.0000   0.296
+siesta_move            1       0.000   0.0000       0.000   0.0000   0.417
+Analysis               1       0.000   0.0000       0.027   0.0011   0.684
+optical                1       0.000   0.0000       0.000   0.0000   0.724
+MPI total              0       0.000   1.0000       0.000   0.0000
+
+Definitions:
+Program: Name of a time-profiled routine (or code section)
+Calls:   Number of profiled calls to a program
+Prg.com: CPU time in communications in one program in one node
+Tot.com: CPU time in communications in all progs. in one node
+Prg.tot: total CPU time in one program in one node
+Tot.tot: total CPU time in all programs in one node
+Nod.avg: average calculation time in one program across nodes
+Nod.max: maximum calculation time in one program across nodes
+Calculation time: CPU time excluding communications
+ 
