@@ -1,0 +1,56 @@
+  
+
+Allocation summary at 2025/12/10 15:34:10.692 +01:00
+
+Present memory all nodes :           0.000000 MB
+Added peak mem all nodes :           0.000000 MB
+Min peak memory in a node:           0.000000 MB
+Max peak memory in a node:           0.000000 MB
+
+Maximum peak of memory occurred in node:     0
+
+Present memory allocation:           0.000000 MB
+Maximum memory allocation:           0.000000 MB
+Occurred after allocating: 
+In routine:                
+location summary at 2025/12/10 15:34:10.688 +01:00
+
+Present memory all nodes :           0.000000 MB
+Added peak mem all nodes :           0.000000 MB
+Min peak memory in a node:           0.000000 MB
+Max peak memory in a node:           0.000000 MB
+
+Maximum peak of memory occurred in node:     3
+
+Present memory allocation:           0.000000 MB
+Maximum memory allocation:           0.000000 MB
+Occurred after allocating: 
+In routine:                
+
+Allocation summary at 2025/12/10 15:34:10.691 +01:00
+
+Present memory all nodes :           0.000000 MB
+Added peak mem all nodes :           0.000000 MB
+Min peak memory in a node:           0.000000 MB
+Max peak memory in a node:           0.000000 MB
+
+Maximum peak of memory occurred in node:     5
+
+Present memory allocation:           0.000000 MB
+Maximum memory allocation:           0.000000 MB
+Occurred after allocating: 
+In routine:                
+
+Allocation summary at 2025/12/10 15:34:10.692 +01:00
+
+Present memory all nodes :           0.000000 MB
+Added peak mem all nodes :           0.000000 MB
+Min peak memory in a node:           0.000000 MB
+Max peak memory in a node:           0.000000 MB
+
+Maximum peak of memory occurred in node:     4
+
+Present memory allocation:           0.000000 MB
+Maximum memory allocation:           0.000000 MB
+Occurred after allocating: 
+In routine:                

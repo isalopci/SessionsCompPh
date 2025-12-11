@@ -1,0 +1,58 @@
+
+
+        # -- NAME & LABEL --
+
+SystemName      Fe_Convergence_tests
+SystemLabel     Fe
+
+        # -- MATERIAL --
+
+NumberOfAtoms    1
+NumberOfSpecies  1
+
+%block ChemicalSpeciesLabel
+    1    26  Fe
+%endblock ChemicalSpeciesLabel
+
+       # -- CELL & ATOMIC POSITIONS
+
+LatticeConstant 1.0 Ang
+%block LatticeParameters
+2.863036 2.863036 2.863036 90.000000 90.000000 90.000000
+%endblock LatticeParameters
+
+AtomicCoordinatesFormat Fractional
+%block AtomicCoordinatesAndAtomicSpecies
+	0.000000000	  0.000000000	    0.000000000    1
+       0.500000000     0.500000000     0.500000000    1
+%endblock AtomicCoordinatesAndAtomicSpecies
+
+
+       # --MONKHORST PACK --
+
+%block kgrid_Monkhorst_Pack
+20   0   0      0
+0    20   0     0
+0    0   20      0
+%endblock kgrid_Monkhorst_Pack
+
+
+       # --SELF CONSISTENT FIELD - -
+
+MeshCutoff           100 Ry
+PAO.BasisSize        DZP    # or DZP
+PAO.BasisType        split
+SolutionMethod       diagon
+XC.authors           PBE       
+XC.functional        GGA
+MaxSCFIterations     200
+DM.Tolerance         1.d-6    # 0.01 eV
+DM.MixingWeight      0.05   
+DM.NumberPulay       5  
+Diag.ParallelOverK   T
+
+		# -- SPIN --
+
+SpinPolarized        F      #If spin polarized, use T
+DM.InitSpinAF        F      #gives the antiferromagnetic order if T, otherwise all spin up if F
+
